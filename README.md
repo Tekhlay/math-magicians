@@ -98,7 +98,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Comming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +201,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Tekhlay/math-magicians/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,7 +245,7 @@ I would like to thank @Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Tekhlay/math-magicians/blob/Dev/LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
