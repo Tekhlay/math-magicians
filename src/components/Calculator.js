@@ -1,8 +1,6 @@
-/* eslint-disable react/button-has-type */
-import React, { Component } from 'react';
+import React from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class Calculator extends Component {
+class Calculator extends React.PureComponent {
   render() {
     return (
       <div className="container">
@@ -10,30 +8,30 @@ class Calculator extends Component {
           <input type="text" value={0} />
         </div>
         <div className="buttons">
-          <button>AC</button>
-          <button>+/-</button>
-          <button>%</button>
-          <button className="opreator">/</button>
+          <button type="button">AC</button>
+          <button type="button">+/-</button>
+          <button type="button">%</button>
+          <button type="button" className="opreator">፥</button>
           <br />
 
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button className="opreator">x</button>
+          <button type="button">7</button>
+          <button type="button">8</button>
+          <button type="button">9</button>
+          <button type="button" className="opreator">x</button>
           <br />
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button className="opreator">-</button>
+          <button type="button">4</button>
+          <button type="button">5</button>
+          <button type="button">6</button>
+          <button type="button" className="opreator">-</button>
           <br />
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button className="opreator">+</button>
+          <button type="button">1</button>
+          <button type="button">2</button>
+          <button type="button">3</button>
+          <button type="button" className="opreator">+</button>
           <br />
-          <button className="zero"> 0 </button>
-          <button>.</button>
-          <button className="opreator">=</button>
+          <button type="button" className="zero"> 0 </button>
+          <button type="button">.</button>
+          <button type="button" className="opreator">=</button>
           <br />
         </div>
       </div>
