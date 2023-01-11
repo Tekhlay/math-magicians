@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 60%;
   margin: 0 auto;
-
 }
 
 .result {
@@ -13,7 +13,7 @@
 }
 
 .result,
- input {
+input {
   background-color: #858694;
   padding: 10px;
   border: none;
@@ -24,11 +24,10 @@
 
 input:focus {
   outline: none;
-  
 }
 
 .buttons {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   display: block;
 }
 
@@ -36,13 +35,13 @@ button {
   width: 25%;
   height: 60px;
   font-size: 20px;
-  border: 1px solid #CBCBCB;
+  border: 1px solid #cbcbcb;
 }
 
 .zero {
-  width: 50%; 
+  width: 50%;
 }
 
 .opreator {
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
