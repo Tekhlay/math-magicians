@@ -45,3 +45,7 @@ button {
 .opreator {
   background-color: #f5913e;
 }
+
+button:hover {
+  cursor: pointer;
+}
