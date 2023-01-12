@@ -9,19 +9,19 @@ class Calculator extends PureComponent {
   }
 }
 const Task = () => {
-  const [obstate, setState] = useState({
+  const [state, setState] = useState({
     total: null,
     next: null,
     operation: null,
   });
 
   const btnOnClick = (e) => {
-    const show = () => calculate(obstate, e.target.name);
+    const show = () => calculate(state, e.target.name);
     setState(show);
   };
 
   let result;
-  const { total, next, operation } = obstate;
+  const { total, next, operation } = state;
   if (total === null && next === null && operation === null) {
     result = 0;
   }
@@ -41,7 +41,7 @@ const Task = () => {
   return (
     <div className="container">
       <div className="result">
-        <p>{result}</p>
+        <p>{ result}</p>
       </div>
       <div className="buttons">
         <button type="button" name="AC" onClick={btnOnClick}>AC</button>
