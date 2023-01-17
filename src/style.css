@@ -8,6 +8,71 @@
   margin: 0 auto;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b77e3;
+  padding: 0.5rem;
+  font-family: 'Times new romans', sans-serif;
+  color: white;
+}
+
+.h1 {
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0.25rem;
+  color: white;
+}
+
+.nav-item:focus {
+  color: #f1c40f;
+}
+
+.home-container {
+  border: box;
+  width: 80vw;
+  height: 70vh;
+  margin: 2rem auto;
+  line-height: 1.5rem;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px rgba(60, 59, 59, 0.75);
+  overflow: none;
+}
+
+.home-title {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.home-desc {
+  font-size: 20px;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
 .result {
   margin-top: 20px;
 }
@@ -20,6 +85,21 @@ input {
   color: #ffff;
   font-size: 30px;
   text-align: end;
+}
+
+.qoute {
+  width: 60%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.qoute h1 {
+  font-size: 2rem;
+}
+
+.author {
+  font-size: 2rem;
+  color: red;
 }
 
 input:focus {
