@@ -50,14 +50,12 @@
 }
 
 .home-container {
-  border: box;
   width: 80vw;
   height: 70vh;
   margin: 2rem auto;
   line-height: 1.5rem;
   background-color: white;
   box-shadow: 10px 10px 10px 10px rgba(60, 59, 59, 0.75);
-  overflow: none;
 }
 
 .home-title {
