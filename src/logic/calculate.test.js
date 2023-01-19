@@ -50,4 +50,3 @@ describe('Button 0', () => {
     expect(result).toEqual(expected);
   });
 });
-

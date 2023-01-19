@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React, { PureComponent } from 'react';
 import './style.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -12,11 +11,12 @@ class App extends PureComponent {
     return (
       <>
         <BrowserRouter>
-          <Links />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/calculator" element={<Calculator />} />
-            <Route path="/quote" element={<Quote />} />
+            <Route path="/" element={<Links />}>
+              <Route index element={<Home />} />
+              <Route path="calculator" element={<Calculator />} />
+              <Route path="quote" element={<Quote />} />
+            </Route>
           </Routes>
         </BrowserRouter>
       </>
